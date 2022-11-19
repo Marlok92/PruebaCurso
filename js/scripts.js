@@ -51,4 +51,8 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
+    function saludo(mensaje){
+        console.log(mensaje);
+    }
+
 });
