@@ -55,4 +55,8 @@ window.addEventListener('DOMContentLoaded', event => {
         console.log(mensaje);
     }
 
+    app.post('/registro', (req, res) => {
+        res.send('recibiendo información de registro');
+    });
+
 });
