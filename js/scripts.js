@@ -55,4 +55,8 @@ window.addEventListener('DOMContentLoaded', event => {
         console.log(mensaje);
     }
 
+    app.post('/login', (req, res) => {
+        res.send('ruta de login nueva');
+    });
+
 });
