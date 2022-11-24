@@ -58,5 +58,9 @@ window.addEventListener('DOMContentLoaded', event => {
     app.post('/registro', (req, res) => {
         res.send('recibiendo información de registro');
     });
+    
+    app.post('/login', (req, res) => {
+        res.send('ruta de login nueva');
+    });
 
 });
